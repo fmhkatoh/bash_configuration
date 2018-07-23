@@ -1,1 +1,3 @@
-# bash_configuration
+# ‰´‰´bashİ’è‚Å‚·‚æB
+
+‚»‚Ì‚¤‚¿à–¾‚Í‘‚­‚æcc
