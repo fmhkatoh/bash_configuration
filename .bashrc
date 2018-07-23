@@ -1,7 +1,7 @@
 # prompt setting
 # Color Code are from https://misc.flogisoft.com/bash/tip_colors_and_formatting
 
-export PS1="\e[${FG_LIGHT_CYAN}m[\u\e[0m@\e[${FG_LIGHT_MAGENTA};${BG_LIGHT_CYAN}m\H\e[${RESET_ALL}m\e[${FG_LIGHT_CYAN}m] \e[${FG_LIGHT_GREEN}m(\D{%Y/%m/%d} \t)\n\e[${FG_LIGHT_YELLOW}m$(pwd)\n\e[${BG_BLUE};${FG_LIGHT_YELLOW}m(\!)\e[${BG_DEFAULT};${FG_DEFAULT}m\e[${FG_LIGHT_CYAN}m \$\e[${BG_DEFAULT};${FG_DEFAULT}m "
+export PS1="\e[${FG_LIGHT_CYAN}m[\u\e[0m@\e[${FG_LIGHT_MAGENTA};${BG_LIGHT_CYAN}m\H\e[${RESET_ALL}m\e[${FG_LIGHT_CYAN}m] \e[${FG_LIGHT_GREEN}m(\D{%Y/%m/%d} \t)\n\e[${FG_LIGHT_YELLOW}m\$PWD\n\e[${BG_BLUE};${FG_LIGHT_YELLOW}m(\!)\e[${BG_DEFAULT};${FG_DEFAULT}m\e[${FG_LIGHT_CYAN}m \$\e[${BG_DEFAULT};${FG_DEFAULT}m "
 
 export PS2="     \e[${FG_LIGHT_CYAN}m+\e[${BG_DEFAULT};${FG_DEFAULT}m "
 
