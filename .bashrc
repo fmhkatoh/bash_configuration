@@ -21,7 +21,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 #some more aliaces
-alias ll='ls -alF'
+alias ll='ls -lAF'
 alias la='ls -A'
 alias l='ls -CF'
 alias cls='clear'
